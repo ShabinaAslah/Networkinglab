@@ -1,15 +1,16 @@
 mca32@mca32:~/Desktop/shabian/S2/Lab Folders$ mkdir networklab
 mca32@mca32:~/Desktop/shabian/S2/Lab Folders$ cd networklab
+
+10.mkdir
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  mkdir xyz abc yyy
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  mkdir -p aaa/zzz
+
+4.echo
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo "linux"
 linux
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo "enter ur name"
 enter ur name
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo -n
-
-
-
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo -n "shabina"
 shabina
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo -n "shabina"
@@ -17,10 +18,14 @@ sahbina
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo -n "shabian"
 shabianmca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo -n "shabian">.txt
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo -n "shabian">sample1.txt
+
+5.read
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  read age
 22
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  echo $age
 22
+
+6.cat
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  cat > smapl1.txt
 shabian
 irfana
@@ -55,7 +60,10 @@ sneha
 ameera
 basima
 ciyana
-shabianmca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  cp smapl1.txt xxx.txt
+shabian
+
+12.cp
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  cp smapl1.txt xxx.txt
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  cat xxx.txt
 shabian
 irfana
@@ -65,18 +73,22 @@ sneha
 ameera
 basima
 ciyana
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  cp -r abc net
 
+
+1.man
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  man ls
+
+
+11.find
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  find xxx.txt
 xxx.txt
-
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  find . -type d
 .
 ./xyz
 ./abc
 ./yyy
 ./aaa/zzz
-
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  find . -type f
 ./zzz/xxx.txt
 ./sample1.txt
@@ -85,6 +97,5 @@ mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  find . -type f
 ./xxx.txt
 
 
-
-mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  cp -r abc net
+13.mv
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  mv xxx.txt aaa.txt
