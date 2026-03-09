@@ -99,3 +99,92 @@ mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  find . -type f
 
 13.mv
 mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab$  mv xxx.txt aaa.txt
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ mv xxx sample.txt
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ mv sample.txt xxx.txt
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ cat xxx.txt
+this is a sample text
+
+
+14.rm
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ rm xxx.txt
+
+15.tar
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ tar -cvf abcd.tar sample1.txt
+sample1.txt
+
+16.wc
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ wc -l sample1.txt
+7 sample1.txt
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ wc -m sample1.txt
+48 sample1.txt
+
+17.head
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ head -n 5 sample1.txt
+kavya
+irfana
+mariya
+sneha
+shabina
+
+18.tail
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ tail -n 5 sample1.txt
+mariya
+sneha
+shabina
+ameera
+basima
+
+19.cut
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ cut -c 1-5 sample1.txt
+kavya
+irfan
+mariy
+sneha
+shabi
+ameer
+basim
+
+20.paste
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ paste sample1.txt smaple1.txt
+kavya	kavya
+irfana	irfana
+mariya	mariya
+sneha	sneha
+shabina	shabina
+ameera	ameera
+basima	basima
+
+
+21.grep
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ grep "irfana" sample1.txt
+irfana
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ grep "ibrahim" sample1.txt
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ grep -i "irfana" sample1.txt
+irfana
+
+22.expr
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ expr 10+5
+10+5
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ expr length "linux"
+5
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ expr 10/5
+10/5
+
+23.chmod
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ chmod g+w sample1.txt
+
+
+27.useradd
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ sudo useradd student1
+[sudo] password for mca: 
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ sudo passwd student1
+New password: 
+Retype new password: 
+passwd: password updated successfully
+
+
+28.usermod
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ sudo usermod -l std1 student1
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ sudo usermod -d /home/aaa std1
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ sudo usermod -u 1100 std1
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/aaa/zzz$ sudo usermod -s /bin/bash std1
