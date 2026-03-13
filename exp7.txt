@@ -1,0 +1,196 @@
+qn1.Hello World Script
+#!/bin/bash
+echo "hell linux world"
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file1.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file1.sh
+hell linux world
+
+
+qn2.Script with Multiple echo Statements
+#!/bin/bash
+echo "line1:start the script"
+echo "line2:this is bash scripting"
+echo "line3:script complete"
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file2.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file2.sh
+line1:start the script
+line2:this is bash scripting
+line3:script complete
+
+
+qn3.Printing Environment Variables
+#!/bin/bash
+echo "Home directory:$HOME"
+echo "Curent user:$USER"
+echo "Current shell:$SHELL"
+echo "working dr:$PWD"
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x FILE3.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./FILE3.sh
+Home directory:/home/mca
+Curent user:mca
+Current shell:/bin/bash
+
+
+
+qn4.Using Numeric Variables
+#!/bin/bash
+a=10
+b=20
+sum=$((a + b))
+echo "Sum of $a and $b is: $sum"
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file4.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file4.sh
+Sum of 10 and 20 is: 30
+
+
+qn5.Check if a number is positive
+#!/bin/bash
+num=10
+if [ $num -gt 0 ] 
+then
+echo "$num is a positive number"
+fi
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file5.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file5.sh
+10 is a positive number
+
+
+
+qn6.To check whether a given number is greater than 5
+#!/bin/bash
+num=3
+if [ $num -gt 5 ] 
+then
+echo "Greater than 5"
+else
+echo "Less than or equal to 5"
+fi
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file6.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file6.sh
+Less than or equal to 5
+
+
+
+qn7.Check even or odd
+#!/bin/bash
+num=7
+if [ $((num % 2)) -eq 0 ]
+then
+echo "$num is Even"
+else
+echo "$num is Odd"
+fi
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file7.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file7.sh
+7 is Odd
+
+
+qn8.Grade classification
+#!/bin/bash
+marks=75
+if [ $marks -ge 90 ]
+then
+echo "Grade: A"
+elif [ $marks -ge 75 ]
+then
+echo "Grade: B"
+elif [ $marks -ge 50 ]
+then
+echo "Grade: C"
+else
+echo "Grade: Fail"
+fi
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file8.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file8.sh
+Grade: B
+
+
+
+qn9.To display the numbers 1 to 5
+#!/bin/bash
+n=5
+for (( i=1; i<=n; i++ ))
+do
+echo $i
+done
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file9.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file9.sh
+1
+2
+3
+4
+5
+
+
+
+qn10.Print First n Numbers Using While Loop
+#!/bin/bash
+n=5
+i=1
+while [ $i -le $n ] # i is less than or equal to n
+do
+echo -n "$i "
+((i++))
+done
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file10.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file10.sh
+1 2 3 4 5
+
+
+
+qn11.Basic Add & Subtract
+#!/bin/bash
+add() # Addition Function
+{
+result=$(( $1 + $2 ))
+echo "Addition of $1 + $2 = $result"
+}
+subtract() # Subtraction Function
+{
+result=$(( $1 - $2 ))
+echo "Subtraction of $1 - $2 = $result"
+}
+# Calling Functions
+add 20 10
+subtract 20 10
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file11.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file11.sh
+Addition of 20 + 10 = 30
+Subtraction of 20 - 10 = 10
+
+
+
+qn12.Command Line Arguments
+#!/bin/bash
+echo "Script name: $0"
+echo "First argument: $1"
+echo "Second argument: $2"
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file12.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file12.sh hello linus
+Script name: ./file12.sh
+First argument: hello
+Second argument: linus

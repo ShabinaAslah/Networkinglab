@@ -1,0 +1,39 @@
+Experiment 8: Write a shell script to check whether a given number is even or odd
+#!/bin/bash
+echo "Enter a number:"
+read num
+if [ $((num % 2)) -eq 0 ]
+then
+echo "$num is Even"
+else
+echo "$num is Odd"
+fi
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file13.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file13.sh
+Enter a number:
+2
+2 is Even
+
+
+Experiment 9: Write a shell script to input three numbers and display the largest number
+#!/bin/bash
+echo "Enter three numbers:"
+read a b c
+if [ $a -ge $b ] && [ $a -ge $c ]
+then
+echo "Largest number is: $a"
+elif [ $b -ge $a ] && [ $b -ge $c ]
+then
+echo "Largest number is: $b"
+else
+echo "Largest number is: $c"
+fi
+
+output:
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ chmod +x file14.sh
+mca@MCA08:~/Desktop/Shabina MCA/S2/Lab Folders/networklab/shabina/lab2$ ./file14.sh
+Enter three numbers:
+2 3 4
+
