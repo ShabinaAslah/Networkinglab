@@ -1,0 +1,69 @@
+outputs of the network lab exp 16 to 23:-
+
+exp 16:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ chmod +x 1.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./1.sh
+Enter a : 1
+Enter b :2
+After interchange:
+First number = 2
+Second number = 1
+
+exp 17:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ chmod +x 2.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./2.sh
+Enter basic salary: 2000
+Basic Salary = 2000
+DA = 800
+HRA = 400
+Gross Salary = 3200
+
+exp 18:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./3.sh
+Enter a number: 5
+1 2 3 4 5 
+
+exp 19:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ chmod +x 4.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./4.sh
+Enter first number: 4
+Enter second number: 2
+4 is greater than 2
+Multiplication = 8
+
+exp 20:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ chmod +x 5.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./5.sh
+Enter a five digit number: 12345
+Reversed number = 54321
+
+exp 21:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./6.sh
+Enter a number:999
+Palindrome number
+
+exp 22:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ chmod +x 7.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./7.sh
+Enter first number: 5
+Enter second number: 4
+Select operation:
+1. Addition
+2. Subtraction
+Enter option: 2
+Subtraction = 1
+
+exp 23:
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./8.sh
+Enter a number: 2345
+1. Sum of digits
+2. Reverse of number
+Enter your choice:2
+Reverse = 5432
+mca@MCA08:~/Desktop/Shabina S2/Linux$ ./8.sh
+Enter a number: 324
+1. Sum of digits
+2. Reverse of number
+Enter your choice:1
+Sum of digits = 9
+
