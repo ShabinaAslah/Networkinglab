@@ -1,0 +1,20 @@
+Output of exp 25:-
+
+1.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 25$ chmod +x add2num.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 25$ ./add2num.sh
+ Enter two numbers: 2 3
+Sum = 5
+
+2.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 25$ chmod +x evenodd.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 25$ ./evenodd.sh
+Enter a number: 4  
+4 is Even
+
+3.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 25$ chmod +x factorial.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 25$ ./factorial.sh
+Enter a number: 5
+Factorial = 120
+

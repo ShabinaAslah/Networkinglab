@@ -1,0 +1,57 @@
+Output of exp 24:-
+
+1.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ chmod +x rittriaanglstrptn.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ ./rittriaanglstrptn.sh
+Enter number of rows:
+4
+* 
+* * 
+* * * 
+* * * * 
+
+2.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ chmod +x invertedtriangl.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ ./invertedtriangl.sh
+Enter number of rows:4
+* * * * 
+* * * 
+* * 
+*
+
+3.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ chmod +x PyramidPattern.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ ./PyramidPattern.sh
+Enter number of rows:4
+   * 
+  * * 
+ * * * 
+* * * * 
+
+4.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ chmod +x numberangle.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ ./numberangle.sh
+Enter number of rows:4
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+
+5.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ chmod +x invertnum.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ ./invertnum.sh
+Enter number of rows: 4
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+
+6.
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ chmod +x floydnum.sh
+mca@MCA08:~/Desktop/Shabina S2/Linux/exp 24$ ./floydnum.sh
+Enter number of rows: 4
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+
