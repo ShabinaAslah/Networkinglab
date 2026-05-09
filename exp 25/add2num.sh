@@ -1,7 +1,7 @@
 #!/bin/bash
-add() #function definition
+add()
 {
-sum=$(( $1 + $2 )) #$1 – 1st argument & $1 – 2nd argument
+sum=$(( $1 + $2 ))
 echo "Sum = $sum"
 }
 read -p " Enter two numbers: " a b
